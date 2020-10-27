@@ -190,5 +190,6 @@
 
 [user]
 
-	name = "[YOUR NAME]"
-	email = "[YOUR EMAIL]"
+	name = "Nuno Ribeiro"
+	email = "nmpribeiro@gmail.com"
+	signingkey = "742715FC59BF102005FB962F84D09988E69AA6B8"

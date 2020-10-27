@@ -146,3 +146,7 @@ alias reload="exec ${SHELL} -l"
 
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
+
+alias scan_home='clamscan -r --bell -i /Users/nmpribeiro/'
+alias scan_users='clamscan -r --bell -i /Users/'
+alas scan='clamscan -r --bell -i /'
