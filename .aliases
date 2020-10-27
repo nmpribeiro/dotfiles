@@ -147,6 +147,12 @@ alias reload="exec ${SHELL} -l"
 # Print each PATH entry on a separate line
 alias path='echo -e ${PATH//:/\\n}'
 
-alias scan_home='clamscan -r --bell -i /Users/nmpribeiro/'
+alias scan_home='clamscan -r --bell -i /Users/${HOME}/'
 alias scan_users='clamscan -r --bell -i /Users/'
-alas scan='clamscan -r --bell -i /'
+alias scan='clamscan -r --bell -i /'
+
+alias git_bclean='/Users/${HOME}/git_bclean.sh'
+
+alias git_prune_show="git remote prune origin --dry-run"
+alias git_prune="git remote prune origin"
+alias git_prune_danger="git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d"
