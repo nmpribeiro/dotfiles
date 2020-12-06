@@ -156,3 +156,5 @@ alias git_bclean='${HOME}/git_bclean.sh'
 alias git_prune_show="git remote prune origin --dry-run"
 alias git_prune="git remote prune origin"
 alias git_prune_danger="git branch -vv | grep 'origin/.*: gone]' | awk '{print $1}' | xargs git branch -d"
+alias imgcat='${HOME}/imgcat.sh'
+
